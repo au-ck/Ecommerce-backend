@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/admin")
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 public class AdminController {
 
     @Autowired private FarmerService farmerService;

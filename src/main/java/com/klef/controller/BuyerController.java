@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/buyers")
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 public class BuyerController {
 
     @Autowired private BuyerService service;
